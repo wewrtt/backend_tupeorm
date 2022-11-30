@@ -1,0 +1,11 @@
+{
+  "apps": [
+    {
+      "name": "c18-site-prod",
+      "script": "node -r ./dist/src/newrelic.js ./dist/src/main.js",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}
